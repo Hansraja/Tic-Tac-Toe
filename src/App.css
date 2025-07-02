@@ -10,6 +10,7 @@ body{
   height: 100vh;
   font-family:monospace;
   padding: 0 3px;
+  overflow: hidden;
 
 
   
