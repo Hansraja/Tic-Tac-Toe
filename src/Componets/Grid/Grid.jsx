@@ -29,7 +29,7 @@ function Grid({numberOfCards}){
   <div className='grid-wrapper'>
     <h3 className='turn-highlight'>Current Turn: {(turn)?'o':'x'}</h3>
     <div className='grid'>
-      {board.map((el, index) => <Card gameEnd={(winner)? true : false} key={index} onPlay={play} player={el} index={index} />)}
+      {board.map((el, index) => <Card gameEnd={winner? true : false} key={index} onPlay={play} player={el} index={index} />)}
      
     </div>
     {
