@@ -1,4 +1,4 @@
-import { FaPenToSquare, FaRegCircle, FaTimes } from 'react-icons/fa';
+import { FaPencilAlt, FaRegCircle, FaTimes } from 'react-icons/fa';
 function Icon({name}){
   if(name == "circle"){
     return <FaRegCircle />;
@@ -7,7 +7,7 @@ function Icon({name}){
     return <FaTimes />;
   }
   else{
-    return <FaPenToSquare />;
+    return <FaPencilAlt />;
   }
 }
 export default Icon;
