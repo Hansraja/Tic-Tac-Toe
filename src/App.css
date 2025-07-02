@@ -1,0 +1,23 @@
+
+#root{
+  --blue:#2254f7;
+}
+body{
+  background-color: rgb(4, 1, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family:monospace;
+  padding: 0 3px;
+
+
+  
+ 
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}

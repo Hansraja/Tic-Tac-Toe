@@ -1,0 +1,50 @@
+.grid{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color:transparent;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(249, 242, 242, 0.503);
+  opacity: 0.9;
+
+}
+.turn-highlight{
+  color: rgb(227, 184, 54);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.winner-highlight{
+  color: rgb(25, 181, 35);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.reset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.winner-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+
